@@ -1,0 +1,21 @@
+.App {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.center-item {
+  display: flex;
+  justify-content: center;
+}
+
+.movie{
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.movie-list{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates two columns of equal width */
+  gap: 100px; /* Adjust the gap between cards as needed */
+}
